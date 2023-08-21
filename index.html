@@ -26,48 +26,49 @@ Ymmersion
     </header>
         <main>
             <section id="sections">
-                <div class="section-card" onclick="showPopup('administration')">
+                <div class="section-card" data-target="administration">
                     <h3>Administration Poste Client</h3>
                 </div>
-                <div class="section-card" onclick="showPopup('challenge48h')">
+                <div class="section-card" data-target="challenge48h">
                     <h3>Challenge 48H</h3>
                 </div>
-                <div class="section-card" onclick="showPopup('java')">
+                <div class="section-card" data-target="java">
                     <h3>Java</h3>
                 </div>
-                <div class="section-card" onclick="showPopup('linux')">
+                <div class="section-card" data-target="linux">
                     <h3>Linux</h3>
                 </div>
-                <div class="section-card" onclick="showPopup('poo')">
+                <div class="section-card" data-target="poo">
                     <h3>POO</h3>
                 </div>
-                <div class="section-card" onclick="showPopup('infra')">
+                <div class="section-card" data-target="infra">
                     <h3>Infra et SI</h3>
                 </div>
-                <div class="section-card" onclick="showPopup('hangman')">
+                <div class="section-card" data-target="hangman">
                     <h3>Hangman</h3>
                 </div>
-                <div class="section-card" onclick="showPopup('hangmanweb')">
+                <div class="section-card" data-target="hangmanweb">
                     <h3>Hangman Web</h3>
                 </div>
-                <div class="section-card" onclick="showPopup('groupietracker')">
+                <div class="section-card" data-target="groupietracker">
                     <h3>Groupie-Tracker</h3>
                 </div>
-                <div class="section-card" onclick="showPopup('forum')">
+                <div class="section-card" data-target="forum">
                     <h3>Forum</h3>
                 </div>
-                <div class="section-card" onclick="showPopup('challengejs')">
+                <div class="section-card" data-target="challengejs">
                     <h3>Challenge JS</h3>
                 </div>
-                <div class="section-card" onclick="showPopup('reseau')">
+                <div class="section-card" data-target="reseau">
                     <h3>Reseaux</h3>
                 </div>
-                <div class="section-card" onclick="showPopup('yboost')">
+                <div class="section-card" data-target="yboost">
                     <h3>Yboost</h3>
                 </div>
-                <div class="section-card" onclick="showPopup('ymersion')">
+                <div class="section-card" data-target="ymmersion">
                     <h3>Ymmersion</h3>
                 </div>
+                
             </section>
         </main>
         <div class="popup-overlay" id="popupOverlay" onclick="hidePopup()"></div>
@@ -78,7 +79,7 @@ Ymmersion
     </div>
         <footer>
             <div class="footer-link" onclick="window.location.href='#about'">À propos de moi</div>
-            <div class="footer-link" onclick="window.location.href='#contact'">Contact</div>    
+        <div class="footer-link" onclick="window.location.href='#contact'">Contact</div>
         </footer>
         <script src="script.js"></script>
 </body>
