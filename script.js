@@ -1,13 +1,3 @@
-document.addEventListener("DOMContentLoaded", function() {
-    const sectionCards = document.querySelectorAll(".section-card");
-
-    sectionCards.forEach(card => {
-        const target = card.getAttribute("data-target");
-        card.addEventListener("click", function() {
-            window.location.href = target;
-        });
-    });
-});
 
 const sectionData = {
     administration: {
@@ -73,9 +63,9 @@ function showPopup(sectionId) {
     const popupOverlay = document.getElementById('popupOverlay');
     const popup = document.getElementById('popup');
     const popupContent = document.getElementById('popupContent');
-    
+
     const section = sectionData[sectionId];
-    
+
     popupContent.innerHTML = `<h2>${section.title}</h2><p>${section.content}</p>`;
     popupOverlay.style.display = 'block';
     popup.style.display = 'block';
