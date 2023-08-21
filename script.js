@@ -5,7 +5,7 @@ const sectionData = {
         content: 'Contenu spécifique à la section Administration Poste Client...'
     },
     challenge48h: {
-        title: 'challenge 48H',
+        title: 'challenge48h',
         content: 'Contenu spécifique à la section Challenge 48H...'
     },
     java: {
