@@ -2,10 +2,9 @@ document.addEventListener("DOMContentLoaded", function() {
     const sectionCards = document.querySelectorAll(".section-card");
 
     sectionCards.forEach(card => {
-        const target = card.getAttribute("data-target");
         card.addEventListener("click", function() {
-            console.log("Card clicked:", target);
-            window.location.href = target;
+            const target = card.getAttribute("data-target");
+            showPopup(target);
         });
     });
 });
@@ -74,10 +73,14 @@ function showPopup(sectionId) {
     const popupOverlay = document.getElementById('popupOverlay');
     const popup = document.getElementById('popup');
     const popupContent = document.getElementById('popupContent');
+    const popupTitle = document.getElementById('popupTitle');
+    const popupText = document.getElementById('popupText');
 
     const section = sectionData[sectionId];
 
-    popupContent.innerHTML = `<h2>${section.title}</h2><p>${section.content}</p>`;
+    popupTitle.textContent = section.title;
+    popupText.textContent = section.content;
+
     popupOverlay.style.display = 'block';
     popup.style.display = 'block';
 }
