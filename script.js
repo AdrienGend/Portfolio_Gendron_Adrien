@@ -66,7 +66,19 @@ const sectionData = {
         title: 'ymersion',
         content: 'Le tout premier projet de l année était une opportunité offerte par les Ymmersion, permettant un apprentissage accéléré du langage Golang.L objectif était de créer un jeu vidéo en utilisant exclusivement le terminal et le langage Golang.Pour ce projet, nous étions une équipe de trois personnes, et nous avons développé un jeu ancré dans l univers médiéval-fantastiqueRÉSULTATS ACQUISApprentissage approfondi du langage de programmation Golang.Maîtrise des concepts de programmation orientée objet.Capacité à respecter un cahier des charges incluant de nombreuses fonctionnalités. Lien GITHUB :https://github.com/matteoVcs/Vocanson_Monforte_Gendron_red'
     },
+        summerschool: {
+        title: 'Summer School IA',
+        content: `La Summer School en Intelligence Artificielle (IA), une aventure immersive de six semaines, s'est révélée être une expérience transformative. Durant cette période intensive, j'ai plongé au cœur du monde passionnant de l'IA, explorant ses concepts fondamentaux et ses applications concrètes.
 
+        Au fil des semaines, j'ai été guidé à travers une série de modules et de projets pratiques, conçus pour m'immerger dans les divers aspects de l'IA. Dès les premiers jours, j'ai été initié aux bases essentielles, comme les réseaux de neurones, l'apprentissage automatique et le traitement du langage naturel. Progressivement, ces fondations solides m'ont permis de relever des défis de plus en plus complexes.
+        
+        L'un des moments forts de cette Summer School a été l'opportunité de travailler sur des projets en équipe, où j'ai collaboré avec des esprits créatifs partageant la même passion pour l'IA. Ces projets nous ont poussés à appliquer nos connaissances théoriques à des cas pratiques, tout en encourageant la collaboration et l'innovation.
+        
+        À la fin de ce périple de six semaines, j'ai acquis une multitude de compétences précieuses. Je maîtrise désormais la mise en œuvre d'algorithmes d'apprentissage automatique, la manipulation de bibliothèques populaires d'IA, et l'analyse des résultats pour affiner mes modèles. Je suis capable de concevoir des réseaux de neurones adaptés à des tâches spécifiques et de les entraîner avec succès. De plus, j'ai développé une compréhension approfondie des enjeux éthiques liés à l'IA, me permettant d'appréhender les implications sociétales de cette technologie en pleine expansion.
+        
+        En somme, la Summer School en IA a été une opportunité exceptionnelle de plonger dans ce domaine en plein essor. Grâce à cette expérience enrichissante, j'ai non seulement renforcé mes compétences techniques, mais j'ai également élargi ma perspective sur les possibilités infinies qu'offre l'IA pour résoudre des problèmes du monde réel.`
+    },
+    
 };
 
 function showPopup(sectionId) {
