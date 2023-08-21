@@ -1,46 +1,57 @@
-
+/* Reset des marges et des paddings */
 body, h1, h2, h3, p, ul, li {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
+/* Utilisation d'une police de caractères plus moderne */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
+/* Espacement uniforme autour des éléments principaux */
 header, nav, main, footer {
     padding: 20px;
 }
 
+/* Style de l'en-tête */
 header {
     background-color: #4e4e4e;
     color: white;
     text-align: center;
 }
 
+/* Espacement des sections */
 section {
     margin-bottom: 40px;
 }
 
+/* Style des titres de section */
 h2 {
     font-size: 24px;
     margin-bottom: 10px;
 }
 
+/* Style du contenu dans les sections "À propos" et "Contact" */
 .about-content, .contact-content {
     margin-top: 20px;
     padding: 10px;
     border: 1px solid #ddd;
     background-color: #f9f9f9;
+    border-radius: 5px; /* Bords arrondis */
 }
 
+/* Style des articles */
 .article {
     margin-bottom: 20px;
     padding: 10px;
     border: 1px solid #ddd;
     background-color: #f9f9f9;
+    border-radius: 5px; /* Bords arrondis */
 }
 
+/* Style des cartes de section */
 .section-card {
     display: inline-block;
     width: 200px;
@@ -51,26 +62,33 @@ h2 {
     border: 1px solid #ddd;
     text-align: center;
     cursor: pointer;
+    border-radius: 10px; /* Bords arrondis */
+    transition: background-color 0.3s; /* Transition en douceur au survol */
 }
 
 .section-card:hover {
     background-color: #ddd; /* Changement de couleur au survol */
 }
 
+/* Style du pied de page */
 footer {
     text-align: center;
     padding: 20px;
     background-color: #67ff02;
     color: white;
-    align-items: end;
+    position: fixed;
+    bottom: 0; /* Coller le pied de page en bas */
+    width: 100%; /* Largeur totale */
 }
 
+/* Espacement des liens du pied de page */
 .footer-link {
-    display: flex;
+    display: inline-block;
     margin: 0 10px;
     cursor: pointer;
 }
 
+/* Style de la superposition de la pop-up */
 .popup-overlay {
     display: none;
     position: fixed;
@@ -82,19 +100,22 @@ footer {
     z-index: 1000;
 }
 
+/* Style de la pop-up */
 .popup {
     display: none;
     position: fixed;
-    top: 5%;
+    top: 50%;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translate(-50%, -50%);
     width: 90%;
     max-width: 800px;
     background-color: white;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
     z-index: 1001;
+    border-radius: 5px; /* Bords arrondis */
 }
 
+/* Style du contenu de la pop-up */
 .popup-content {
     padding: 20px;
 }
