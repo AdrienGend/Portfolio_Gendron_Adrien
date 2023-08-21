@@ -9,52 +9,73 @@
 <body>
     <header>
         <h1>Mon Portfolio</h1>
+        Administration Poste Client
+Challenge 48H
+Java
+Linux
+POO
+Infra et SI
+Hangman
+Hangman Web
+Groupie-Tracker
+Forum
+Challenge JS
+Reseaux
+Yboost
+Ymmersion
     </header>
         <main>
             <section id="sections">
-                <div class="section-card" onclick="window.location.href='administration.html'">
+                <div class="section-card" onclick="showPopup('administration')">
                     <h3>Administration Poste Client</h3>
                 </div>
-                <div class="section-card" onclick="window.location.href='challenge48h.html'">
+                <div class="section-card" onclick="showPopup('challenge48h')">
                     <h3>Challenge 48H</h3>
                 </div>
-                <div class="section-card" onclick="window.location.href='java.html'">
+                <div class="section-card" onclick="showPopup('java')">
                     <h3>Java</h3>
                 </div>
-                <div class="section-card" onclick="window.location.href='linux.html'">
+                <div class="section-card" onclick="showPopup('linux')">
                     <h3>Linux</h3>
                 </div>
-                <div class="section-card" onclick="window.location.href='POO.html'">
+                <div class="section-card" onclick="showPopup('poo')">
                     <h3>POO</h3>
                 </div>
-                <div class="section-card" onclick="window.location.href='infraetSI.html'">
+                <div class="section-card" onclick="showPopup('infra')">
                     <h3>Infra et SI</h3>
                 </div>
-                <div class="section-card" onclick="window.location.href='Hangman.html'">
+                <div class="section-card" onclick="showPopup('hangman')">
                     <h3>Hangman</h3>
                 </div>
-                <div class="section-card" onclick="window.location.href='HangmanWeb.html'">
+                <div class="section-card" onclick="showPopup('hangmanweb')">
                     <h3>Hangman Web</h3>
                 </div>
-                <div class="section-card" onclick="window.location.href='GroupieTracker.html'">
+                <div class="section-card" onclick="showPopup('groupietracker')">
                     <h3>Groupie-Tracker</h3>
                 </div>
-                <div class="section-card" onclick="window.location.href='Forum.html'">
+                <div class="section-card" onclick="showPopup('forum')">
                     <h3>Forum</h3>
                 </div>
-                <div class="section-card" onclick="window.location.href='ChallengeJS.html'">
+                <div class="section-card" onclick="showPopup('challengejs')">
                     <h3>Challenge JS</h3>
                 </div>
-                <div class="section-card" onclick="window.location.href='Reseaux.html'">
+                <div class="section-card" onclick="showPopup('reseau')">
                     <h3>Reseaux</h3>
                 </div>
-                <div class="section-card" onclick="window.location.href='Yboost.html'">
+                <div class="section-card" onclick="showPopup('yboost')">
                     <h3>Yboost</h3>
                 </div>
-                <div class="section-card" onclick="window.location.href='Ymmersion.html'">
+                <div class="section-card" onclick="showPopup('ymersion')">
                     <h3>Ymmersion</h3>
                 </div>
+            </section>
         </main>
+        <div class="popup-overlay" id="popupOverlay" onclick="hidePopup()"></div>
+    <div class="popup" id="popup">
+        <div class="popup-content" id="popupContent">
+            <!-- Contenu de la pop-up -->
+        </div>
+    </div>
         <footer>
             <div class="footer-link" onclick="window.location.href='#about'">À propos de moi</div>
             <div class="footer-link" onclick="window.location.href='#contact'">Contact</div>    
