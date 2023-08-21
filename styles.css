@@ -74,3 +74,16 @@ h2 {
 .section-card:hover {
     background-color: #ddd; /* Changement de couleur au survol */
 }
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+.footer-link {
+    display: inline-block;
+    margin: 0 10px;
+    cursor: pointer;
+}
