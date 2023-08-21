@@ -13,7 +13,7 @@ header, nav, main, footer {
 }
 
 header {
-    background-color: #333;
+    background-color: #00bbff;
     color: white;
     text-align: center;
 }
@@ -60,12 +60,13 @@ h2 {
 footer {
     text-align: center;
     padding: 20px;
-    background-color: #333;
+    background-color: #00bbff;
     color: white;
+    align-items: end;
 }
 
 .footer-link {
-    display: inline-block;
+    display: flex;
     margin: 0 10px;
     cursor: pointer;
 }
